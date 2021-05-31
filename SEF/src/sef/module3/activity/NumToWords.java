@@ -14,14 +14,12 @@ public class NumToWords {
 	 */
 	public static void main(String[] args) {
 		
-		for ( int i = 1; i < 11; i++ ) {
+		for ( int i = 1; i < 51; i++ ) {
 			System.out.println ( "The value of i is:- " + i );
 		}
+//		or i<=50
 
-		
-		
-				
-		int i = 2;
+		int i = 5;
 		String numText ;
 		switch(i) {
 		case 1:
