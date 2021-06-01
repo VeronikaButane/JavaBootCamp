@@ -45,7 +45,7 @@ public class EmployeeJDBC {
 		// 3 - Execute this query
 		
 		
-		// 4 - If resultset is not null, then initialize emp object with data 
+		// 4 - If result set is not null, then initialize emp object with data
 		
 		con.close();
 		} catch (SQLException e) {
