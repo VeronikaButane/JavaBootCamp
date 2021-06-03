@@ -9,9 +9,8 @@ public class ErrorSample {
 		} catch (ArithmeticException e) {
 			System.out.println("I can't divide number by 0");
 		}
-		//infinity();
-		
-		
+//		infinity();
+//		Uncommenting previous line cause the stack overflow error
 	}
 	
 	//Below method calls itself and
@@ -25,6 +24,7 @@ public class ErrorSample {
 	public static void infinity(){
 		//1 - Print a message
 		System.out.println("Infinity!");
+
 		//2 - Call infinity()
 		infinity();
 	

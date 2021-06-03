@@ -20,9 +20,10 @@ public class CheckedExceptionSample {
 			reader = new FileReader(fileName);
 			
 			
-		}catch (FileNotFoundException e) {
-			System.out.println("file " + fileName + " not found");
+		}catch (FileNotFoundException e) {							// should delete???
+			System.out.println("file " + fileName + " not found"); // should delete???
 		}
-		//2 - catch FileNotFoundException 
+		//2 - catch FileNotFoundException
+
 	}
 }
